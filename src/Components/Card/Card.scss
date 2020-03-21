@@ -1,0 +1,42 @@
+.CardItem {
+    margin-bottom: 15px;
+    padding: 12px;
+    width: 250px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+
+    .country-info {
+        font-style: italic;
+    }
+
+    p {
+        margin-bottom: 0;
+        .number-tag {
+            font-weight: 600;
+            font-style: italic;
+        }
+
+        .badges {
+            margin-left: 10px;
+            padding: 2px 7px;
+            border-radius: 50%;
+            font-size: 12px;
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        .case {
+            background-color: #423feb;
+        }
+        .death {
+            background-color: #ff771d;
+        }
+        .recover {
+            background-color: #35b929;
+        }
+        .critical {
+            background-color: #9b1414;
+        }
+    }
+}

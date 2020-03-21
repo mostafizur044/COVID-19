@@ -1,0 +1,69 @@
+
+.FlexContainer {
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    .BarChart {
+        padding: 10px;
+        flex: 1;
+    }
+}
+
+.SearchSection {
+    background-color: #fafafa;
+    .Search {
+        padding: 24px;
+    }
+
+    .PositionColor {
+        padding: 0 24px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        .items {
+            .color-box {
+                flex: 1;
+                display: inline-block;
+                padding: 5px;
+                
+            }
+            .case {
+                background-color: #423feb;
+            }
+            .death {
+                background-color: #ff771d;
+            }
+            .recover {
+                background-color: #35b929;
+            }
+            .critical {
+                background-color: #9b1414;
+            }
+        }
+    }
+}
+
+.CardContainer {
+    padding: 24px;
+    margin-bottom: 30px;
+    background-color: #fafafa;
+    max-height: 400px;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 959px) {
+    .FlexContainer {
+        flex-direction: column!important;
+    }
+}
