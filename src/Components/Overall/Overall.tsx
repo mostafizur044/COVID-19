@@ -3,6 +3,7 @@ import { IAllInformationData, AllInformation } from '../../Models/Models';
 import { getApi } from '../../configs';
 import './Overall.scss';
 import { Pie } from 'react-chartjs-2';
+import YourCountryInfo from '../YourCountryInfo/YourCountryInfo';
 
 
 export default class Overall extends React.Component<{}, IAllInformationData> {
@@ -52,6 +53,9 @@ export default class Overall extends React.Component<{}, IAllInformationData> {
     return (
       <React.Fragment>
         <div className="UpdatedTime"><span>Last Update: {this.state.updatedDateTime}</span></div>
+        <div className="LoactionUpdate">
+            <YourCountryInfo></YourCountryInfo>
+        </div>
         <div className="OverAllSection">
             <div className="CountingSection">
                 <div className="Count">

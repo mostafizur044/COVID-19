@@ -1,18 +1,18 @@
 
 .FlexContainer {
-    padding: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #fafafa;
     .BarChart {
-        padding: 10px;
+        padding: 24px;
         flex: 1;
     }
 }
 
 .SearchSection {
     background-color: #fafafa;
+    border-top: 1px solid #efefef;
     .Search {
         padding: 24px;
     }

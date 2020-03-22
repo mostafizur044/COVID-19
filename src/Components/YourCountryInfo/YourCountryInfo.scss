@@ -1,0 +1,14 @@
+.CurrentPosition {
+    text-align: center;
+}
+
+.CurrentLocationInfo {
+    text-align: center;
+    p {
+        margin-bottom: 0;
+        .number-tag {
+            font-weight: 600;
+            font-style: italic;
+        }
+    }
+}   

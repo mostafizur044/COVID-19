@@ -36,6 +36,17 @@ export interface IAllInformationData {
     searchValue: string;
   }
 
+  export class CountryResponse {
+    country: string = '';
+    cases: number = 0;
+    todayCases: number = 0;
+    deaths: number = 0;
+    todayDeaths: number = 0;
+    recovered: number = 0;
+    critical: number = 0;
+    casesPerOneMillion: number = 0;
+  }
+
   export interface ITopRecovered {
     country: string;
     recovered: number;

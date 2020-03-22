@@ -4,6 +4,7 @@ import './App.scss';
 import Overall from './Components/Overall/Overall';
 import CountryWiseData from './Components/CountryWiseData/CountryWiseData';
 
+
 function App() {
   return (
     <main className="App ContentWidth">
