@@ -53,7 +53,7 @@ export default class YourCountryInfo extends React.Component<{}, IYourCountryInf
                 </div>
                 <div className="CurrentLocationInfo">
                     <p>
-                        <small>Today Cases:</small>{' '}
+                        <small>Total Cases:</small>{' '}
                         <span className="number-tag">
                             {this.state.data.cases.toLocaleString('en-US')}
                         </span>
