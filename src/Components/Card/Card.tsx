@@ -41,13 +41,13 @@ export default function Card(props: IProps) {
           {props.info.criticalPosition ? (<span className="badges critical">{props.info.criticalPosition}</span>) : ''}
         </p>
         <p>
-          <small>Today Cases:</small>{' '}
+          <small>Todays Cases:</small>{' '}
           <span className="number-tag">
             {props.info.todayCases.toLocaleString('en-US')}
           </span>
         </p>
         <p>
-          <small>Today Deaths:</small>{' '}
+          <small>Todays Deaths:</small>{' '}
           <span className="number-tag">
             {props.info.todayDeaths.toLocaleString('en-US')}
           </span>

@@ -10,7 +10,7 @@ function App() {
     <main className="App ContentWidth">
       <header>
         <h1>COVID-19</h1>
-        <p>Please stay home. Save yourself, let others live</p>
+        <p>Please stay at home. Save yourself, let others live</p>
       </header>
       <section className="Overall">
         <Overall></Overall>
